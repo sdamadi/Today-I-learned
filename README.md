@@ -1,4 +1,3 @@
-***
 # Today-I-learned
 ***
 <a id="sec_1"></a>
