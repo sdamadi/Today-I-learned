@@ -1,11 +1,15 @@
 # Simple HTML markups to use them in Jupyter notebook
+In this tutorial I recored handy codes to mark up words on a jupyter notebook cell or HTML pages.
 
 
-**Headings:** Use `#` sign followed by a blank space for titles and section headings:
-`#` title<br/>
+**Headings**<br/> Use `#` sign followed by a blank space for titles and section headings:<br/>
+> `#` title<br/>
 `##` major headings<br/>
 `###` subheadings<br/>
 `####` 4th level subheadings<br/>
+
+**Emphasis** Use this code: Bold: __string__ or **string** Italic: _string_ or *string*
+
 
 ## How to draw a horizontal line
 
