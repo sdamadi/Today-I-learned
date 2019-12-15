@@ -24,8 +24,15 @@ In this tutorial I recored handy codes to mark up words on a jupyter notebook ce
 <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
 
 
-<div class="row">
-  <div class="column"></div>
-  <div class="column"></div>
-</div>
+---
+layout: page
+title: Page Test
+aside: "Here you can even use <strong>HTML</strong>. Even <a href='http://jekyllrb.com'>Links</a>. But it looks nasty."
+---
+
+Article content
+* Hey this is my content!
+
+Aside content
+* {{ page.aside }}
 
