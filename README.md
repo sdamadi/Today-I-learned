@@ -29,7 +29,6 @@ damadi
   </div>
 </div>
 
-/* Split the screen in half */
 .split {
   height: 100%;
   width: 50%;
@@ -40,19 +39,19 @@ damadi
   padding-top: 20px;
 }
 
-/* Control the left side */
+
 .left {
   left: 0;
   background-color: #111;
 }
 
-/* Control the right side */
+
 .right {
   right: 0;
   background-color: red;
 }
 
-/* If you want the content centered horizontally and vertically */
+
 .centered {
   position: absolute;
   top: 50%;
@@ -61,7 +60,7 @@ damadi
   text-align: center;
 }
 
-/* Style the image inside the centered container, if needed */
+
 .centered img {
   width: 150px;
   border-radius: 50%;
