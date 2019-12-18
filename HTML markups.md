@@ -26,7 +26,7 @@ In this tutorial I recored handy codes to mark up words on a jupyter notebook ce
 <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
 
 
-<table style="width:200%">
+<table style="width:300%">
   <tr>
     <th>Firstname</th>
     <th>Lastname</th>
