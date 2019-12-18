@@ -5,9 +5,9 @@ In this tutorial I recored handy codes to mark up words on a jupyter notebook ce
 
 **Headings**<br/> Use `#` sign followed by a blank space for titles and section headings:<br/>
 > -`#` title<br/>
--`##` major headings<br/>
--`###` subheadings<br/>
--`####` 4th level subheadings<br/>
+*`##` major headings<br/>
+*`###` subheadings<br/>
+*`####` 4th level subheadings<br/>
 
 **Emphasis** Use this code: Bold: __string__ or **string** Italic: _string_ or *string*
 
