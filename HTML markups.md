@@ -44,4 +44,4 @@ In this tutorial I recored handy codes to mark up words on a jupyter notebook ce
   </tr>
 </table>
 
-$x^2+1$
+$$x^2+1$$
