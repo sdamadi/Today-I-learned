@@ -43,3 +43,5 @@ In this tutorial I recored handy codes to mark up words on a jupyter notebook ce
     <td>94</td>
   </tr>
 </table>
+
+$x^2+1$
