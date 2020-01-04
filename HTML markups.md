@@ -45,3 +45,6 @@ In this tutorial I recored handy codes to mark up words on a jupyter notebook ce
 </table>
 
 $$x^2+1$$
+
+
+https://math.stackexchange.com/editing-help
