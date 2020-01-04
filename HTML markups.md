@@ -48,3 +48,7 @@ $$x^2+1$$
 
 
 https://math.stackexchange.com/editing-help
+
+```python
+x - x.exp().sum(-1).log().unsqueeze(-1)
+```
