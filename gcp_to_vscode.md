@@ -11,7 +11,7 @@ but I am going to customize it for myself. Since I found Linux better, I will us
 
 
 ## Pre-requisites
-- Create a virtual machine by following steps explained [here](https://cloud.google.com/compute/docs/quickstart-linux).
+- Create a virtual machine by following steps explained [here](https://cloud.google.com/compute/docs/quickstart-linux). Then, go to `API/API library/Compute Engine API`
 - We need to [install](https://cloud.google.com/sdk/install) Google Cloud SDK(Software Developement Key).
 - Since I am using vscode on Windows machine, from your start menu, run Windows Powershell as an admin.
 - None of the stuff I commented out did not work. In order to connect to gcp from vscode, type in:
