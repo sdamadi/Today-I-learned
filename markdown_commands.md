@@ -1,9 +1,7 @@
 # Markdown Cheatsheet
 This page helps me to easily figure out what markdown command I shoul use.
-`<!---just--->`
-
-The following link would be helpful:
-[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+## How to comment stuff in markdown:
+Just by including the text in the angles `<!---just--->`.
 
 ```
 [I'm an inline-style link](https://www.google.com)
@@ -28,3 +26,6 @@ Some text to show that the reference links can follow later.
 [1]: http://slashdot.org
 [link text itself]: http://www.reddit.com
 ```
+## Other sourses:
+The following link would be helpful:
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
