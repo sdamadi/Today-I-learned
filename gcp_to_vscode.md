@@ -35,11 +35,9 @@ Host gcp
 - eval $(ssh-agent -s)
 - ssh-add ~/.ssh/id_rsa
 ```
-- Go to [Add the SSH key to your GitHub account](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
-```
-Go to ~/.ssh and copy the content of id_rsa.pub(vim) file or use the following method.
-clip < ~/.ssh/id_rsa.pub, you may need to install **geomview** package (first, sudo apt-get update -y, then sudo apt-get install -y geomview) and again try clip < ~/.ssh/id_rsa.pub.
-```
+- Go to [Add the SSH key to your GitHub account](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account) buy going to ~/.ssh and copy the content of id_rsa.pub(vim) file or use the following method.
+
+- You also can use clip < ~/.ssh/id_rsa.pub. You may need to install **geomview** package (first, sudo apt-get update -y, then sudo apt-get install -y geomview) and again try clip < ~/.ssh/id_rsa.pub.
 
 <!---
 - Create a new [SSH key](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys#createsshkeys).
