@@ -28,6 +28,17 @@ Host gcp
 ## Delete a project of gcp
 `gcp/IAM & Admin/manage resources` find the project and delete it.
 
+## Connect vscode to GitHub
+- Go to [Create an SSH key for GitHub](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key) and follow the steps in your vscode when your are SSHing to your VM on gcp. We just need do the followings in our terminal:
+```
+- ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+- eval $(ssh-agent -s)
+- ssh-add ~/.ssh/id_rsa
+- Go to [Add the SSH key to your GitHub account](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
+- Go to ~/.ssh and copy the content of id_rsa.pub(vim) file or use the following method.
+- clip < ~/.ssh/id_rsa.pub, you may need to install **geomview** package (first, sudo apt-get update -y, then sudo apt-get install -y geomview) and again try clip < ~/.ssh/id_rsa.pub.
+```
+
 <!---
 - Create a new [SSH key](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys#createsshkeys).
 - Run PuTTYgen and generate a key and save them wherever you want 
