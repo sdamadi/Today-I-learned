@@ -19,9 +19,16 @@ but I am going to customize it for myself. Since I found Linux better, I will us
 
 I saved them but I am not seeing the public key with extension of `.pub` instead I opend the Powershell and used 
 
-`ssh-keygen -t rsa -f [KEY_FILENAME] -C [USERNAME]` where I chose the name of the key and user name was `admin` which I had used for PuTTYgen so `ssh-keygen -t rsa -f trade -C admin`. Then keys were generated in the address where Powershell was in it. However, I relocate them to `c:\users\saeed\.ssh`.
+`ssh-keygen -t rsa -f [KEY_FILENAME] -C [USERNAME]` where I chose the name of the key and user name was `admin` which I had used for PuTTYgen so `ssh-keygen -t rsa -f trade -C admin`. Then keys were generated in the address where Powershell was in it. However, I relocate them to `c:\users\saeed\.ssh`. **Make sure you restart your laptop, because key is not working if you do not restart your windows machine**
 
-- Add SSH key just to an instance not entire project following [this link](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys#instance-only). Follow the instrunction and then open the public key with Notepad.
+- Add SSH key just to an instance not entire project following [this link](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys#instance-only). Follow the instrunction and then open the public key with Notepad and paste it where your instructed to do so.
+
+None of the above worked so I used the following.
+
+Run in Windows:
+gcloud compute ssh --project [PROJECT_ID] --zone [ZONE] [INSTANCE_NAME]
+
+This should generate a private key on your machine in the ~/.ssh/ directory.
 
 - Open vscode. Since I have already installed remote-ssh I do not need to install this extension. Press 'Ctrl+Shift+p' and type in `add a new SSH`, in the prompted window type in `ssh -i C:\\Users\\saeed\\trade admin@[External IP]` where `External IP` can be found from virtual machine instance on gcp. **However**, this will just add a new SSH key, if go to `c:\users\saeed\conig` you should change it as follows.
 ```python
