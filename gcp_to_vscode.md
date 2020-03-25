@@ -6,6 +6,9 @@ First of all the following page helped me to do so:
 but I am going to customize it for myself.
 
 
-## Delete a project
-`IAM & Admin/manage resources` find the project and delete it.
+## Delete a project of gcp
+`gcp/IAM & Admin/manage resources` find the project and delete it.
 
+
+## Pre-requisites
+-Create a virtual machine
