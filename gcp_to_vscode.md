@@ -11,4 +11,4 @@ but I am going to customize it for myself.
 
 
 ## Pre-requisites
--Create a virtual machine
+*Create a virtual machine
