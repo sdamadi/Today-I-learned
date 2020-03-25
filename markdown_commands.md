@@ -3,6 +3,8 @@ This page helps me to easily figure out what markdown command I shoul use.
 ## How to comment stuff in markdown:
 Just by including the text in the angles `<!---just--->`.
 
+
+## How to add a hyperlink:
 ```
 [I'm an inline-style link](https://www.google.com)
 
