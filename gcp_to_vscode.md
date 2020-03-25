@@ -23,7 +23,7 @@ I saved them but I am not seeing the public key with extension of `.pub` instead
 
 - Add SSH key just to an instance not entire project following [this link](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys#instance-only). Follow the instrunction and then open the public key with Notepad.
 
-- Open vscode. Since I have already installed remote-ssh I do not need to install this extension. Press 'Ctrl+Shift+p' and type in `add a new SSH`, in the prompted window type in `ssh -i C:\\Users\\saeed\\trade admin@[External IP]` where `External IP` can be found from virtual machine instance on gcp. *However*, this will just add a new SSH key, if go to `c:\users\saeed\conig` you should change it as follows.
+- Open vscode. Since I have already installed remote-ssh I do not need to install this extension. Press 'Ctrl+Shift+p' and type in `add a new SSH`, in the prompted window type in `ssh -i C:\\Users\\saeed\\trade admin@[External IP]` where `External IP` can be found from virtual machine instance on gcp. **However**, this will just add a new SSH key, if go to `c:\users\saeed\conig` you should change it as follows.
 ```python
 for i in f:
 ```
