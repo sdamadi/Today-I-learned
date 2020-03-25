@@ -1,7 +1,7 @@
 # How to connect gcp project to vscode
 In this page I keep track of every steps should be taken in order to connect gcp(Google Cloud Platform) to vscode(Visual Studio Code).
 
-First of all the following page helped me to get some idea but not fulfilling it:
+First of all the following page helped me to get some idea but it did not work completely:
 
 [Unleash the power of Visual Studio Code (VSCode) on Google Cloud Platform Virtual Machine](https://towardsdatascience.com/unleash-the-power-of-visual-studio-code-vscode-on-google-cloud-platform-virtual-machine-f75f78f49aee).
 
@@ -35,7 +35,7 @@ Host gcp
 - eval $(ssh-agent -s)
 - ssh-add ~/.ssh/id_rsa
 ```
-- Go to [Add the SSH key to your GitHub account](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account) buy going to ~/.ssh and copy the content of id_rsa.pub(vim) file or use the following method.
+- Go to [Add the SSH key to your GitHub account](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account) by going to ~/.ssh and copy the content of id_rsa.pub(vim) file or use the following method.
 
 - You also can use clip < ~/.ssh/id_rsa.pub. You may need to install **geomview** package (first, sudo apt-get update -y, then sudo apt-get install -y geomview) and again try clip < ~/.ssh/id_rsa.pub.
 
