@@ -18,7 +18,8 @@ bash Anaconda3-2020.02-Linux-x86_64.sh
 
 - Accep the license by hitting enter and say yes to all questions
 
--Activate Installation
+- Activate Installation
+
 ```
 source ~/.bashrc
 ```
