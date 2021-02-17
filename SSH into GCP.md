@@ -31,13 +31,17 @@ This should generate a private key on your machine in the ~/.ssh/ directory.
 
 Open up **PuttyGen** and click Load to load the private key. To find the PuTTY Private Key that the gcloud command generated you should go to `~\.ssh\google_compute_engine.ppk`.
 
-Go to Conversions -&gt; Export OpenSSH key. Name it whatever you want (no file extension).
+Once you load your private key, go to Conversions -&gt; Export OpenSSH key and ame it whatever you want (no file extension).
 
-In VSCode, use f1 -&gt; Remote-SSH: Connect to Host -&gt; Add New SSH Host...<br>
+In VSCode, use f1 -&gt; Remote-SSH: Connect to Host -&gt; Add New SSH Host....
 
 Type in <code>ssh -v -i [PATH_TO_OPENSSH_KEY] [USERNAME]@[HOST]</code>
 
 Host should be the external IP of the VM, and your username should be the user of your computer.
+
+After doing the above you can change the name of host from IP to a name you would like.
+
+I do not know what are the following two lines of explanations.
 
 Use <code>sudo -i</code> to become root
 
