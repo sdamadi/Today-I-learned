@@ -29,9 +29,7 @@ Run in Windows:<br>
 
 This should generate a private key on your machine in the ~/.ssh/ directory.
 
-Open up PuttyGen and click Load<br>
-
-Find the PuTTY Private Key that the gcloud command generated. For me it was ~\.ssh\google_compute_engine.ppk.<br>
+Open up **PuttyGen** and click Load to load the private key. To find the PuTTY Private Key that the gcloud command generated you should go to `~\.ssh\google_compute_engine.ppk`.
 
 Go to Conversions -&gt; Export OpenSSH key. Name it whatever you want (no file extension).
 
