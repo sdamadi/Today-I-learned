@@ -1,4 +1,6 @@
-How to SSH into GCP VM from VSCode running on a Windows machine
+# How to SSH into GCP VM from VSCode running on a Windows machine
+
+Create a virtual machine by following steps explained [here](https://cloud.google.com/compute/docs/quickstart-linux). Do not forget to enable API by doing `API/API library/Compute Engine API`
 
 You will need the Google Cloud SDK on your local machine, specifically the <code>gcloud</code> command.<br>
 
@@ -17,7 +19,9 @@ Run in Google Cloud Console:<br>
 
 <code>gcloud components update</code><br>
 
-<code>gcloud compute instances add-metadata [INSTANCE_NAME] --metadata enable-guest-attributes=TRUE</code>
+<code>gcloud compute instances add-metadata [INSTANCE_NAME] --metadata enable-guest-attributes=TRUE</code>(I did not use this line.)
+
+From your start menu, run Windows Powershell as an admin.
 
 Run in Windows:<br>
 
@@ -40,3 +44,13 @@ Host should be the external IP of the VM, and your username should be the user o
 Use <code>sudo -i</code> to become root
 
 Trying this tomorrow: <a href="https://cloud.google.com/compute/docs/instances/connecting-advanced#root" 
+
+
+The above will create private and public keys in `.ssh` folder and set the a public key for `metadata`. I am not able to use a key for instance instead of the project which I will add here if I was.  
+- To configure your vscode go to `config` file in `.ssh` and set the following:
+```python
+Host gcp
+    HostName EX IP
+    IdentitiesOnly yes
+    IdentityFile C:/Users/saeed/.ssh/google_compute_engine
+```
