@@ -1,6 +1,6 @@
 #How to SSH into GCP VM from VSCode running on a Windows machine
 
-<p>You will need the Google Cloud SDK on your local machine, specifically the <code>gcloud</code> command.<br>
+You will need the Google Cloud SDK on your local machine, specifically the <code>gcloud</code> command.<br>
 You can get it here: <a href="https://cloud.google.com/sdk/docs/quickstart-windows" rel="nofollow">https://cloud.google.com/sdk/docs/quickstart-windows</a><br>
 You will also need Putty/PuttyGen<br>
 <a href="https://www.puttygen.com/" rel="nofollow">https://www.puttygen.com/</a><br>
@@ -20,4 +20,4 @@ Go to Conversions -&gt; Export OpenSSH key. Name it whatever you want (no file e
 Type in <code>ssh -v -i [PATH_TO_OPENSSH_KEY] [USERNAME]@[HOST]</code></p>
 <p>Host should be the external IP of the VM, and your username should be the user of your computer.</p>
 <p>Use <code>sudo -i</code> to become root</p>
-<p>Trying this tomorrow: <a href="https://cloud.google.com/compute/docs/instances/connecting-advanced#root" rel="nofollow">https://cloud.google.com/compute/docs/instances/connecting-advanced#root</a></p>
+<p>Trying this tomorrow: <a href="https://cloud.google.com/compute/docs/instances/connecting-advanced#root" rel="nofollow">https://cloud.google.com/compute/docs/instances/connecting-advanced#root</a>
