@@ -26,6 +26,9 @@ From your start menu, run Windows Powershell as an admin.
 Run in Windows:<br>
 
 <code>gcloud compute ssh --project [PROJECT_ID] --zone [ZONE] [INSTANCE_NAME]</code>
+```
+gcloud compute ssh --project=opendata-304203 --zone=us-central1-a instance-1
+```
 
 This should generate a private key on your machine in the ~/.ssh/ directory.
 
