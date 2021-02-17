@@ -29,6 +29,16 @@ Run in Windows:<br>
 ```
 gcloud compute ssh --project=opendata-304203 --zone=us-central1-a instance-1
 ```
+You will see the following:
+```
+WARNING: The private SSH key file for gcloud does not exist.
+WARNING: The public SSH key file for gcloud does not exist.
+WARNING: The PuTTY PPK SSH key file for gcloud does not exist.
+WARNING: You do not have an SSH key for gcloud.
+WARNING: SSH keygen will be executed to generate a key.
+Unable to retrieve host keys from instance metadata. Continuing.
+Updating project ssh metadata.../
+```
 
 This should generate a private key on your machine in the ~/.ssh/ directory.
 
