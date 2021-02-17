@@ -2,7 +2,7 @@
 
 In this page I keep track of every steps should be taken in order to connect gcp(Google Cloud Platform) to vscode(Visual Studio Code).
 
-[This page is the last page I have found](https://medium.com/@alex.burdenko/vs-code-happens-to-be-my-favorite-code-editor-and-ive-been-lucky-to-participate-so-many-diverse-952102856a7a#:~:text=Use%20CMD%2BSHIFT%2BP%20again,the%20remote%20Cloud%20Shell%20machine.) and is so useful.
+[This page is the last page I have found](https://medium.com/@alex.burdenko/vs-code-happens-to-be-my-favorite-code-editor-and-ive-been-lucky-to-participate-so-many-diverse-952102856a7a#:~:text=Use%20CMD%2BSHIFT%2BP%20again,the%20remote%20Cloud%20Shell%20machine.) and is so useful but it did not followed it.
 
 First of all the following page helped me to get some idea but it did not work completely:
 
