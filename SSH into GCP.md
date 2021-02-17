@@ -1,6 +1,9 @@
-#How to SSH into GCP VM from VSCode running on a Windows machine
+How to SSH into GCP VM from VSCode running on a Windows machine
+
 You will need the Google Cloud SDK on your local machine, specifically the <code>gcloud</code> command.<br>
+
 You can get it here: <a href="https://cloud.google.com/sdk/docs/quickstart-windows" rel="nofollow">https://cloud.google.com/sdk/docs/quickstart-windows</a><br>
+
 You will also need Putty/PuttyGen<br>
 <a href="https://www.puttygen.com/" rel="nofollow">https://www.puttygen.com/</a><br>
 <a href="https://www.putty.org/" rel="nofollow">https://www.putty.org/</a><br>
